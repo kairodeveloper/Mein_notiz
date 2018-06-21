@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Mein Notiz</string>
+    <string name="textApro">Aprovado</string>
+    <string name="textRepr">Reprovado</string>
+    <string name="developer">developed by: Kairo Costa</string>
+    <string name="name_of_discipline">Nome da Disciplina</string>
+    <string name="teacher">Professor</string>
+    <string name="insertString">Inserir Disciplina</string>
+    <string name="salvar">Salvar</string>
+    <string name="disciplina">Disciplinas</string>
+    <string name="inserir_disciplina">Inserir nova disciplina</string>
+    <string name="edit_title">Editar disciplina</string>
+    <string name="Insert">Inserir</string>
+    <string name="refresh">Insira dados corretamente</string>
+    <string name="hasInsert">Inserido</string>
+    <string name="cancel">Cancelar</string>
+    <string name="media">Média: %.1f</string>
+    <string name="discipline_qtd_notas">Qtd. notas: %d</string>
+    <string name="title_activity_lateral">LateralActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_button">ButtonActivity</string>
+</resources>

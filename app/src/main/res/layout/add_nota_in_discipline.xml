@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nota"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/add_new_nota"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:numeric="decimal"
+        android:maxLength="3"
+        android:textAlignment="center"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Peso"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20sp"/>
+
+    <com.gildaswise.horizontalcounter.HorizontalCounter
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/note_horizontal_counter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:stepValue="1"
+        app:textColor="@color/colorButtom"
+        app:minusButtonColor="@color/colorButtom"
+        app:plusButtonColor="@color/colorButtom"
+        app:displayInteger="true"
+        app:initialValue="1"
+        app:maxValue="10"
+        app:minValue="1"
+        app:textSize="12sp">
+
+
+
+
+    </com.gildaswise.horizontalcounter.HorizontalCounter>
+
+</LinearLayout>

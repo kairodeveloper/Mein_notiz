@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="100dp" android:background="@color/colorItens"
+    android:padding="25dp" android:layout_marginBottom="20dp">
+    <TextView
+        android:id="@+id/itemPosition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:layout_gravity="top"
+        android:layout_marginRight="10dp"/>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="3"
+        android:layout_height="match_parent"
+        android:background="@color/colorItens"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/note_in_item_recycler"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nota: 7.0"
+            android:layout_gravity="left"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/weight_in_item_recycler"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Peso: 1"
+            android:layout_gravity="left"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/detail_in_item_recycler"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_bad_note"
+            android:layout_gravity="end|center_vertical"/>
+
+
+
+
+</LinearLayout>
